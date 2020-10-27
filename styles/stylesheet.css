@@ -8,8 +8,9 @@ Project: Lesson 02: Milestone 1 Assigment*/
     <meta charset="utf-8">
     <style>
       <body>
+
         {
-          color: cornflowerblue;
+          color: dodgerblue;
           background-color: gray
         }
         p{
@@ -31,29 +32,13 @@ Project: Lesson 02: Milestone 1 Assigment*/
       h1 {
       color: purple;
     }
-
-    p {
-      color: red;
-    }
-
+  
     body {
       background-color: dodgerblue;
     }
-    .purple-text {
-       color: hsla(240, 0, 0, .5);
-    }
-    .important {
-      font-weight:bold;
-    }
-    .important:hover {
-      background-color:pink;
-    }
-    #lead-paragraph {
-      color: purple;
-      font-weight: bold;
-    }
+
     h1 {
-      color: red;
+      color: purple;
       border-style: solid;
       border-width: 1 px;
       border-color: red;
@@ -62,11 +47,20 @@ Project: Lesson 02: Milestone 1 Assigment*/
       width: 75%;
     }
     img {
-      border-style: dashed;
+      border-style: ridge;
       border-color: orange;
       border-width: 3px;
       width: 25%;
     }
+    /* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
       </body>
     </style>
   </head>
