@@ -8,40 +8,62 @@ Project: Lesson 02: Milestone 1 Assigment*/
     <meta charset="utf-8">
     <style>
       <body>
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
 
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
         {
           color: dodgerblue;
           background-color: gray
         }
-        p{
+        /* p{
           color: DarkSeaGreen;
           text-align: left;
           color: inherit;
-        }
+        } */
         .main-paragraph:hover {
           background: DarkMagenta;
         }
-        a[href="./About-Me.html"]{
-        }
+        /* a[href="./About-Me.html"]{
+        } */
         img {
         width: 25%;
       }
-      p { color: blue;}
+      p {
+      font-family: serif; color: blue;}
       .purple-text { color: purple;}
-      p { color: orange;}
-      h1 {
-      color: purple;
-    }
-  
+      p { font-family: serif; color: orange;}
+      /* h1 {
+      color: DarkSeaGreen;
+    } */
+
     body {
       background-color: dodgerblue;
     }
 
     h1 {
-      color: purple;
+
+      color: DarkSeaGreen;
+      font-family: sans-serif;
       border-style: solid;
       border-width: 1 px;
-      border-color: red;
+      border-color: purple;
     }
     p.important {
       width: 75%;
@@ -54,7 +76,7 @@ Project: Lesson 02: Milestone 1 Assigment*/
     }
     /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: yellow;
 }
 
 /* selected link */
@@ -64,7 +86,7 @@ a:active {
       </body>
     </style>
   </head>
-  <body>
+  /* <body>
     <h1>Website Title text</h1>
 
     <p> class="main-paragraph" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -78,6 +100,6 @@ a:active {
 
 
 
-    </div>
-  </body>
+     </div>
+  </body>  */
 </html>
