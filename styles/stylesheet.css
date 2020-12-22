@@ -84,7 +84,12 @@ main {
 nav {
   clear: both;
 }
-
+/* adding accessible for nav link to give a more space */
+nav a
+{
+  padding: .2rem;
+  margin: .2rem;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -123,12 +128,7 @@ nav li a {
 }
 
 
-/* nav li a:after{
-  content: " / ";
-  position: absolute;
-  right: 0;
-  top : 15px;
-} */
+
 
 nav li:last-child a:after{
     display: none;
@@ -154,11 +154,7 @@ li a:hover {
           color: dodgerblue;
           background-color: gray
         }
-        /* p{
-          color: DarkSeaGreen;
-          text-align: left;
-          color: inherit;
-        } */
+
         .main-paragraph:hover {
           background: DarkMagenta;
         }
@@ -178,16 +174,7 @@ li a:hover {
     body {
       background-color: dodgerblue;
     }
-/*
-    h1 {
 
-      color: DarkSeaGreen;
-      font-family: sans-serif;
-      border-style: solid;
-      border-width: 1 px;
-      border-color: purple;
-    } */
-    /* delete    */
 
     article {
       border: 3px solid lightskyblue;
