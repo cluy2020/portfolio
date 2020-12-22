@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Chan Luy">
+    <title>Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Styles/stylesheet.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header>
+
+      <h1>Contact Us</h1>
+      <p>customer details</p>
+      <nav>
+        <a href="./index.html">Homepage</a>
+      </nav>
+
+  </header>
+  <main>
+
+
+      <form method="GET" autocomplete="on">
+
+        <!-- First Fielset -->
+        <fieldset>
+          <legend class="main">Full Name </legend>
+           <label for="firstname">Name:</label>
+           <input id="firstname" type="text" name="firstName" required autofocus>
+           <label for="lastname">Last Name:</label>
+           <input id="lastname" type="text" name="lastName" required>
+
+           <!-- Your Gender / Sub Fieldset -->
+           <fieldset class="gender">
+             <legend>Gender</legend>
+               <input id="male" type="radio" name="gender" value="male">
+               <label for="male">Male</label>
+               <input id="female" type="radio" name="gender" value="female">
+               <label for="female">Female</label>
+               <input id="other" type="radio" name="gender" value="other">
+               <label for="other">Other</label>
+          </fieldset>
+          <br>
+           <!-- Your Birthday -->
+           <label for="birthday">DOB</label>
+           <br>
+           <input id="birthday" type="date" name="birthday">
+           <br>
+           <!-- Guest Email -->
+           <label for="email">Your E-mail:</label>
+           <br>
+           <input id="email" type="email" name="guestEmail" placeholder="mail@mail.com">
+           <br>
+           <!--  Address -->
+           <label for="address">Address</label>
+           <br>
+           <input id="address" type="text" name="guestNewAddress">
+           <br>
+           <!-- Phone Number -->
+           <label for="phone">Phone</label>
+           <br>
+           <input id="phone" type="tel" name="guestPhone" placeholder="(000)-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+           <br>
+
+        </fieldset>
+
+        <!-- Second Fieldset -->
+        <fieldset>
+
+          <fieldset>
+            <legend>Will you be willing to recommend us?</legend>
+              <input type="checkbox" id="yes" name="yes" value="yes">
+              <label for="yes">Yes</label>
+              <input type="checkbox" id="no" name="no" value="no">
+              <label for="no">No</label>
+              <input type="checkbox" id="other" name="other" value="other">
+              <label for="no">Others</label>
+          </fieldset>
+          <br>
+
+        <label>How did you hear about us?
+          <select name="Feedback">
+            <!-- Feedback -->
+
+            <option value="">Please select</option>
+            <option value="Newspapers">Newspapers</option>
+            <option value="Internet">Internet</option>
+            <option value="Magazines">Magazines</option>
+            <option value="Mails">Mails</option>
+            <option value="facebook">facebook</option>
+            <option value="Others">Others</option>
+
+          </select>
+        </label>
+        <br>
+        <br>
+
+          </fieldset>
+
+      <fieldset class="textarea">
+        <legend class="main">Suggestions if any for further improvement:</legend>
+        <textarea name="comment" rows="10" cols="50">Please, leave your comments here!!
+        </textarea>
+        <br>
+  
+      </fieldset>
+
+</form>
+
+
+  </main>
+  <footer>
+    <div class="nav-footer">
+      <a href="#" class="footer-icon"><i class="fab fa-telegram"></i></a>
+      <a href="#" class="footer-icon"><i class="fab fa-whatsapp-square"></i></a>
+      <a href="#" class="footer-icon"><i class="fab fa-skype"></i></a>
+    </div>
+    <h5>Copy Chan Luy</h5>
+  </footer>
+  </body>
+</html>
